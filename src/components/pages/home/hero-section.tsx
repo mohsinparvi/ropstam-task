@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import { HeroImage } from "../../../assets/images";
 
 const HeroSection = () => {
   return (
-    <div>HeroSection</div>
-  )
-}
+    <section>
+      <img
+        src={HeroImage}
+        alt="hero"
+        className="w-full h-screen absolute top-0  rounded-md object-cover"
+      />
+    </section>
+  );
+};
 
-export default HeroSection
+export default HeroSection;
