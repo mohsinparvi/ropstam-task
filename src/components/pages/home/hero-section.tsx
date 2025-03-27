@@ -1,20 +1,31 @@
+import { Button } from "@material-tailwind/react";
 import { HeroImage } from "../../../assets/images";
+import { ArrowUpRight } from "../../../assets/icons";
 
 const HeroSection = () => {
   return (
-    <section className="h-[130vh]">
+    <section className='h-[130vh]'>
       <img
         src={HeroImage}
-        alt="hero"
-        className="w-full h-screen absolute top-0  rounded-md object-cover"
+        alt='hero'
+        className='absolute inset-0 h-screen w-full object-cover rounded-md'
       />
-      <div className="container top-0 w-full h-screen z-1">
-        <div className="flex flex-col items-center justify-center h-screen text-white">
-          <div></div>
-          <h1 className="text-6xl font-bold">Welcome to our site</h1>
-          <p className="text-xl">We are a team of professionals</p>
+      <div className='relative z-10 ml-0 md:ml-10 lg:ml-80 max-w-2xl px-4'>
+        <div className='flex h-screen mt-52 flex-col text-white'>
+          <p className='mb-4 text-xl font-light'>No Lines. Less hassle, Lower Costs.</p>
+          <h1 className='mb-8 text-6xl font-normal leading-tight'>
+            Easy Online Suboxone Treatment for Opioid Addiction
+          </h1>
+          <Button
+            className='flex items-center gap-2 bg-primary  hover:bg-primary/80 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out px-3 py-3 max-w-[230px]'
+            placeholder={undefined}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
+          >
+            <span>Download The App Today</span>
+            <ArrowUpRight />
+          </Button>
         </div>
-        <div></div>
       </div>
     </section>
   );
