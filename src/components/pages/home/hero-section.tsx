@@ -2,13 +2,13 @@ import { HeroImage } from "../../../assets/images";
 
 const HeroSection = () => {
   return (
-    <section className="">
+    <section className="h-[130vh]">
       <img
         src={HeroImage}
         alt="hero"
         className="w-full h-screen absolute top-0  rounded-md object-cover"
       />
-      <div className="absolute top-0 w-full h-screen z-1">
+      <div className="container top-0 w-full h-screen z-1">
         <div className="flex flex-col items-center justify-center h-screen text-white">
           <div></div>
           <h1 className="text-6xl font-bold">Welcome to our site</h1>
