@@ -1,5 +1,6 @@
 import Logo from "../common/logo";
 import NavLink from "../common/nav-link";
+import { Button } from "../ui/material-tailwind";
 const NAV_ITEMS = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "#" },
@@ -9,7 +10,7 @@ const NAV_ITEMS = [
 ];
 const Header = () => {
   return (
-    <header className="bg-black/20 backdrop-blur-lg sticky top-0 z-10">
+    <header className="mx-auto max-w-screen-xl mt-8 py-4 rounded-md bg-black/20 backdrop-blur-lg sticky top-0 z-10">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
@@ -27,9 +28,18 @@ const Header = () => {
               </ul>
             </nav>
           </div>
-
-          <div className="flex items-center gap-4">
+          <Button
+            className="bg-primary"
+            placeholder={undefined}
+            onPointerEnterCapture={null}
+            onPointerLeaveCapture={null}
+          >
+            <span>dkka</span>
+          </Button>
+          {/* <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
+
+                
               <a
                 className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm"
                 href="#"
@@ -65,7 +75,7 @@ const Header = () => {
                 </svg>
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
