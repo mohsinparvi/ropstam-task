@@ -10,7 +10,7 @@ const HeroSection = () => {
         alt="hero"
         className="absolute inset-0 h-fill w-full object-cover rounded-md"
       />
-      <div className="relative z-10 ml-0 md:ml-10 lg:ml-80 max-w-2xl px-4">
+      <div className="relative z-10 ml-0 md:ml-10 lg:ml-48 md:top-10 lg:top-44 max-w-2xl px-4">
         <div className="flex h-screen mt-52 flex-col text-white">
           <p className="mb-4 text-xl font-light">
             No Lines. Less hassle, Lower Costs.
