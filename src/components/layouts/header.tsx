@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../common/logo";
 import NavLink from "../common/nav-link";
 const NAV_ITEMS = [
