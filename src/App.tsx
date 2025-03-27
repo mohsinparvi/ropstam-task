@@ -9,8 +9,8 @@ function App() {
   return (
     <ErrorBoundary>
       <Suspense fallback={<LoadingSpinner />}>
-        <main>
-          <Header />
+        <Header />
+        <main className="">
           <Routes>
             <Route path="/" element={<Home />} />
             {/* Add more routes as needed */}
