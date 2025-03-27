@@ -10,7 +10,7 @@ const NAV_ITEMS = [
 ];
 const Header = () => {
   return (
-    <header className="mx-auto max-w-screen-xl mt-8 py-4 rounded-md bg-black/20 backdrop-blur-lg sticky top-0 z-10">
+    <header className="mx-auto max-w-screen-xl mt-8 py-4 rounded-2xl bg-black/20 backdrop-blur-sm sticky top-0 z-10">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">

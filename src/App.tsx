@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import ErrorBoundary from "./components/common/error-boundary";
 import LoadingSpinner from "./components/common/loading-spinner";
