@@ -1,3 +1,3 @@
-import { AlertTriangle, RefreshCw } from "lucide-react";
+import { AlertTriangle, RefreshCw, ArrowUpRight } from "lucide-react";
 
-export { AlertTriangle, RefreshCw };
+export { AlertTriangle, RefreshCw, ArrowUpRight };
