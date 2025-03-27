@@ -4,18 +4,19 @@ import { ArrowUpRight } from "../../../assets/icons";
 
 const HeroSection = () => {
   return (
-    <section className="h-[100dvh]">
+    <>
       <img
         src={HeroImage}
         alt="hero"
-        className="absolute inset-0 h-fill w-full object-cover rounded-md"
+        // className="absolute inset-0 h-fill w-full object-cover rounded-md"
+        className="absolute inset-0 h-screen w-full object-cover rounded-md"
       />
-      <div className="relative z-10 ml-0 md:ml-10 lg:ml-48 md:top-10 lg:top-44 max-w-2xl px-4">
-        <div className="flex h-screen mt-52 flex-col text-white">
-          <p className="mb-4 text-xl font-light">
+      <div className="relative z-10 ml-10 lg:ml-48 top-0  xl:top-20 max-w-2xl px-4">
+        <div className="flex justify-center items-center xl:justify-start xl:items-start xl:h-[80dvh] mt-52 flex-col text-white">
+          <p className="mb-4  text-base md:text-xl xl:text-start font-thin">
             No Lines. Less hassle, Lower Costs.
           </p>
-          <h1 className="mb-8 text-6xl font-normal leading-tight">
+          <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl text-center xl:text-start font-normal leading-tight">
             Easy Online Suboxone Treatment for Opioid Addiction
           </h1>
           <Button
@@ -29,7 +30,7 @@ const HeroSection = () => {
           </Button>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 

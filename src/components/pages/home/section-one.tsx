@@ -18,8 +18,8 @@ const CARD_ITEMS = [
 ];
 const SectionOne = () => {
   return (
-    <section className=" max-w-screen-xl mx-auto px-4">
-      <div className="flex items-center justify-between gap-10">
+    <section className=" max-w-screen-xl mx-auto px-4 mt-56 lg:mt-28 xl:mt-0">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
         <div className="space-y-4">
           <Heading>Breaking Barriers to Recovery</Heading>
           <h2 className="text-2xl font-bold mb-8"></h2>
