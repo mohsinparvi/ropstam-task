@@ -23,11 +23,6 @@ class ErrorBoundary extends Component<Props, State> {
   }
 
   private handleRefresh = () => {
-    // Clear any stored state that might be causing issues
-    localStorage.removeItem("bookingState");
-    localStorage.removeItem("searchData");
-
-    // Reload the page
     window.location.reload();
   };
 
