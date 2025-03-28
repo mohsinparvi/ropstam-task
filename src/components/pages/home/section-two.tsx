@@ -12,12 +12,12 @@ const SectionTwo = () => {
             </p>
             <Heading>Your Fully Online Suboxone Treatment Platform</Heading>
 
-            <p className="mt-4 text-text text-base font-extralight ">
+            <p className="mt-4 text-text text-sm sm:text-base font-extralight ">
               100% online opioid treatment with licensed buprenorphine providers
               starts at just $99/month.
             </p>
 
-            <p className="mt-4 text-text text-base font-extralight">
+            <p className="mt-4 text-text text-sm sm:text-base font-extralight">
               With monthly and weekly meetings based on where you are in your
               recovery. Get a same-day appointment and script.
             </p>
