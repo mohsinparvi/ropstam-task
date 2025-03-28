@@ -56,7 +56,14 @@ body {
     max-width: 1280px;
   }
 } */
-
+.hero-imge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/images/hero-image.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .get-app {
   background-image: url("../assets/images/get-app.webp");
   background-size: cover;
