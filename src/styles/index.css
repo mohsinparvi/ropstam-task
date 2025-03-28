@@ -27,3 +27,14 @@ body {
   /* font-weight: <weight>; */
   font-style: normal;
 }
+.get-app {
+  background-image: url("../assets/images/get-app.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-one {
+  background-image: url("../assets/images/section-one.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
