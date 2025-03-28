@@ -31,7 +31,7 @@ const Header = () => {
             </nav>
           </div>
           <Button
-            className="bg-primary hidden lg:block hover:bg-primary/80  text-white font-medium rounded-lg shadow-md transition duration-300 ease-in-out"
+            className="bg-primary hidden lg:block hover:bg-primary/80 normal-case text-sm py-2  text-white font-medium rounded-lg shadow-md transition duration-300 ease-in-out"
             placeholder={undefined}
             onPointerEnterCapture={null}
             onPointerLeaveCapture={null}

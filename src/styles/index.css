@@ -63,6 +63,11 @@ body {
   background-image: url("../assets/images/hero-image.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 .get-app {
   background-image: url("../assets/images/get-app.webp");
@@ -87,8 +92,9 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url("../assets/images/section-four.gif");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  
 }
 .slick-list {
   padding: 10px 0 !important;

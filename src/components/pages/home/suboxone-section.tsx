@@ -2,6 +2,7 @@ import { Button } from "../../ui/material-tailwind";
 import Heading from "../../common/heading";
 import { ArrowUpRight } from "../../../assets/icons";
 import SuboxoneCard from "../../common/suboxone-card";
+import { SectionfourGif } from "../../../assets/images";
 const SUBOXONE_STEP = [
   {
     id: 1,
@@ -36,7 +37,7 @@ const SuboxoneSection = () => {
         <div className="flex flex-col lg:flex-row  justify-between lg:items-center space-y-4 lg:space-y-0">
           <Heading>Suboxone Treatment In 10 Minutes</Heading>
           <Button
-            className="flex items-center gap-2 bg-primary  hover:bg-primary/80 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out px-3 py-3 max-w-[230px]"
+            className="flex items-center gap-2 bg-primary normal-case hover:bg-primary/80 text-sm text-white font-medium rounded-lg shadow-md transition duration-300 ease-in-out px-2 py-2 "
             placeholder={undefined}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
@@ -46,8 +47,11 @@ const SuboxoneSection = () => {
           </Button>
         </div>
 
-        <div className="suboxone-img z-10 w-full">
-          <div className="grid grid-cols-1 lg:grid-cols-5 lg:grid-rows-4 gap-4 relative lg:top-32">
+        <div className="z-10 relative w-full">
+          <div className="absolute flex items-center justify-center inset-0">
+            <img src={SectionfourGif} alt=" " />
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-5 lg:grid-rows-3 gap-4 relative lg:top-12">
             <div className="lg:col-span-2 lg:row-span-2 space-y-6 lg:space-y-20">
               {SUBOXONE_STEP.slice(0, 2).map((step) => (
                 <SuboxoneCard key={step.id} {...step} />

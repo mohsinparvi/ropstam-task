@@ -22,7 +22,7 @@ const GetAppSection = () => {
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
-              className="flex items-center gap-2 normal-case text-white text-base font-medium"
+              className="flex items-center gap-2  text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out px-3 py-3 max-w-[230px]"
             >
               <span className="flex items-center gap-2">
                 Get The App

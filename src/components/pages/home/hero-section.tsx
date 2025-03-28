@@ -17,7 +17,7 @@ const HeroSection = () => {
             </Heading>
 
             <Button
-              className="flex items-center gap-2 bg-primary normal-case hover:bg-primary/80 text-base text-white font-medium rounded-lg shadow-md transition duration-300 ease-in-out px-2 py-2 "
+              className="flex items-center gap-2 bg-primary normal-case hover:bg-primary/80 text-sm text-white font-medium rounded-lg shadow-md transition duration-300 ease-in-out px-2 py-2 "
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
