@@ -31,9 +31,10 @@ const LocationSection = () => {
             <p>Ottawa St. and Homer Waston Blvd.</p>
           </div>
         </div>
-        <div>
+               <div className="w-full md:w-1/2">
           <UsaMap />
         </div>
+
       </div>
     </div>
   );
