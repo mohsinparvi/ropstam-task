@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="col-span-1">
             <Logo className="text-primary" />
 
-            <p className="mt-4 max-w-xs text-gray-500">
+            <p className="mt-4 max-w-xs text-base font-extralight text-text">
               Experience the convenience of Recovery Delivered, your trusted
               source for online medication delivery. We bring the pharmacy to
               your doorstep, ensuring fast, discreet, and reliable service.
@@ -59,7 +59,7 @@ const Footer = () => {
                   <li key={item.label}>
                     <Link
                       to={item.href}
-                      className="text-text transition hover:opacity-75"
+                      className="text-text text-base font-extralight transition hover:opacity-75"
                     >
                       {item.label}
                     </Link>
@@ -71,7 +71,12 @@ const Footer = () => {
               <p className="font-medium text-primary text-2xl">Contact</p>
               <div className="flex items-center mt-6 gap-3">
                 <PhoneCall />
-                <Link to={"tel:+1(866)7579868"}>1-866-757-9868</Link>
+                <Link
+                  to={"tel:+1(866)7579868"}
+                  className="text-base font-extralight text-text"
+                >
+                  1-866-757-9868
+                </Link>
               </div>
               <p className="font-medium text-primary text-2xl">Social Media</p>
               <div className="flex items-center mt-6 gap-3">
@@ -84,7 +89,7 @@ const Footer = () => {
         </div>
         <div className="space-y-4">
           <hr className="border-text  border-1" />
-          <p className="text-xs text-gray-500">
+          <p className=" text-text text-base font-extralight">
             &copy; 2024 – recovery Delivered | All Right Reserved
           </p>
         </div>
