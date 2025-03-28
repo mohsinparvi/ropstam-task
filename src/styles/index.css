@@ -83,3 +83,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.slick-list {
+  padding: 10px 0 !important;
+}
