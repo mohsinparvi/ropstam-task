@@ -9,7 +9,7 @@ import LocationSection from "../components/pages/home/location-section";
 
 const Home = () => {
   return (
-    <main className="space-y-10">
+    <main className=" space-y-7 lg:space-y-14">
       <HeroSection />
       <SectionOne />
       <SectionTwo />

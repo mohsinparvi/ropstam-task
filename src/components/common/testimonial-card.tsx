@@ -8,24 +8,36 @@ type Props = {
 
 const TestimonialCard: FC<Props> = ({ description, name, image }) => {
   return (
-    <div className="border border-primary shadow-md rounded-lg space-y-4 p-4 h-full flex flex-col">
-      <div className="flex mt-8 space-x-2">
-        <StarIcon filled={true} />
-        <StarIcon filled={true} />
-        <StarIcon filled={true} />
-        <StarIcon filled={true} />
-        <StarIcon filled={true} />
-      </div>
-      <p className="text-base font-extralight text-text flex-grow line-clamp-4">
-        {description}
-      </p>
-      <div className="flex items-center gap-2 mt-auto">
-        <img
-          src={image}
-          alt="Client's Image"
-          className="rounded-full w-10 h-10 object-cover"
-        />
-        <p className="text-base font-semibold text-text">- {name}</p>
+    <div className="group/card testimonial-card relative p-2">
+      <div
+        className="border border-primary shadow-md rounded-lg space-y-4 p-4 h-full flex flex-col transition-all duration-300 ease-in-out 
+        group-hover/container:scale-95 
+        group-hover/container:opacity-50 
+        group-hover/container:rotate-0
+        hover:!scale-100 
+        hover:!opacity-100 
+        hover:!z-10 
+        hover:!-rotate-6 
+        hover:shadow-xl"
+      >
+        <div className="flex mt-8 space-x-2">
+          <StarIcon filled={true} />
+          <StarIcon filled={true} />
+          <StarIcon filled={true} />
+          <StarIcon filled={true} />
+          <StarIcon filled={true} />
+        </div>
+        <p className="text-base font-extralight text-text flex-grow line-clamp-4">
+          {description}
+        </p>
+        <div className="flex items-center gap-2 mt-auto">
+          <img
+            src={image}
+            alt="Client's Image"
+            className="rounded-full w-10 h-10 object-cover"
+          />
+          <p className="text-base font-semibold text-text">- {name}</p>
+        </div>
       </div>
     </div>
   );

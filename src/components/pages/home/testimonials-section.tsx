@@ -6,12 +6,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { ArrowLeft, ArrowRight } from "../../../assets/icons";
+
 const TESTIMONIALS = [
   {
     id: 1,
     name: "Nicholas O.",
     description:
-      "Recovery Delivered is great! I cannot believe how fast and easy the process is. The staff and providers are very quick to respond to your messages. I made my appointment same day and had everything I needed.  I was so surprised. Thank you Recovery Delivered!",
+      "Recovery Delivered is great! I cannot believe how fast and easy the process is. The staff and providers are very quick to respond to your messages. I made my appointment same day and had everything I needed.  I was so surprised. Thank you Recovery Delivered!",
     image: ClientOne,
   },
   {
@@ -29,6 +30,7 @@ const TESTIMONIALS = [
     image: ClientOne,
   },
 ];
+
 const TestimonialsSection = () => {
   const sliderRef = useRef<Slider>(null);
 
@@ -78,7 +80,7 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
         <div className="space-y-4">
           <p className="text-primary text-base font-thin uppercase">
-            Our Client’s
+            Our Client's
           </p>
           <div className="flex items-center justify-between">
             <Heading>Testimonials</Heading>
@@ -96,7 +98,11 @@ const TestimonialsSection = () => {
           </div>
         </div>
 
-        <Slider {...settings} ref={sliderRef} className="testimonial-slider">
+        <Slider
+          {...settings}
+          ref={sliderRef}
+          className="testimonial-slider py-8 group/container"
+        >
           {TESTIMONIALS.map((testimonial) => (
             <TestimonialCard key={testimonial.id} {...testimonial} />
           ))}
