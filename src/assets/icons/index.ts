@@ -10,6 +10,10 @@ import {
   ArrowRight,
 } from "lucide-react";
 import PlayButton from "./play-button.svg";
+import CbsNews from "./cbs-news.svg";
+import Abc from "./abc.svg";
+import Fox from "./fox.svg";
+import Nbc from "./nbc.svg";
 
 export {
   AlertTriangle,
@@ -22,5 +26,9 @@ export {
   PlayButton,
   ArrowLeft,
   ArrowRight,
+  CbsNews,
+  Abc,
+  Fox,
+  Nbc,
 
 };

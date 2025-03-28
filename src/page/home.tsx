@@ -1,3 +1,4 @@
+import FeatureSection from "../components/pages/home/feature-section";
 import GetAppSection from "../components/pages/home/get-app-section";
 import HeroSection from "../components/pages/home/hero-section";
 import SectionOne from "../components/pages/home/section-one";
@@ -11,6 +12,7 @@ const Home = () => {
       <SectionOne />
       <SectionTwo />
       <TestimonialsSection />
+      <FeatureSection />
       <GetAppSection />
     </>
   );
