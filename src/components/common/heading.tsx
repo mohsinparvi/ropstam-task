@@ -6,7 +6,13 @@ type HeadingProps = {
 };
 
 const Heading: FC<HeadingProps> = ({ children, className = "text-text" }) => {
-  return <h1 className={`font-medium text-5xl  ${className}`}>{children}</h1>;
+  return (
+    <h1
+      className={`font-medium text-3xl sm:text-4xl md:text-5xl  ${className}`}
+    >
+      {children}
+    </h1>
+  );
 };
 
 export default Heading;

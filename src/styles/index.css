@@ -38,3 +38,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.testimonial-slider .slick-slide {
+  padding: 0 10px;
+}
+.testimonial-slider .slick-list {
+  margin: 0 -10px;
+}

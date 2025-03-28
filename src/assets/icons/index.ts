@@ -6,6 +6,8 @@ import {
   Twitter,
   Facebook,
   Youtube,
+  ArrowLeft ,
+  ArrowRight,
 } from "lucide-react";
 import PlayButton from "./play-button.svg";
 
@@ -18,4 +20,7 @@ export {
   Facebook,
   Youtube,
   PlayButton,
+  ArrowLeft,
+  ArrowRight,
+
 };

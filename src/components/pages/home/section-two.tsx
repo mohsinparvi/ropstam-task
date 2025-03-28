@@ -1,5 +1,6 @@
 import { PlayButton } from "../../../assets/icons";
 import { HeroImage } from "../../../assets/images";
+import Heading from "../../common/heading";
 const SectionTwo = () => {
   return (
     <section>
@@ -9,9 +10,7 @@ const SectionTwo = () => {
             <p className="text-primary text-base font-thin uppercase">
               Welcome To Recovery Delivered
             </p>
-            <h2 className="text-4xl font-medium text-text-700">
-              Your Fully Online Suboxone Treatment Platform
-            </h2>
+            <Heading>Your Fully Online Suboxone Treatment Platform</Heading>
 
             <p className="mt-4 text-text">
               100% online opioid treatment with licensed buprenorphine providers
