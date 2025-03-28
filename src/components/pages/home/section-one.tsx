@@ -18,7 +18,7 @@ const CARD_ITEMS = [
 ];
 const SectionOne = () => {
   return (
-    <section className=" max-w-screen-xl mx-auto px-4 mt-56 lg:mt-28 xl:mt-0">
+    <section className="container mx-auto px-4 mt-56 lg:mt-28 xl:mt-0">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
         <div className="space-y-4">
           <Heading>Breaking Barriers to Recovery</Heading>

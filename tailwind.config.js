@@ -22,7 +22,7 @@ module.exports = withMT({
           dark: "#1F2937",
         },
         text: {
-          DEFAULT: "#111827",
+          DEFAULT: "#475569",
           dark: "#E5E7EB",
         },
       },

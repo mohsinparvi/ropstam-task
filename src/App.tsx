@@ -4,6 +4,7 @@ import ErrorBoundary from "./components/common/error-boundary";
 import LoadingSpinner from "./components/common/loading-spinner";
 import Header from "./components/layouts/header";
 import Home from "./page/home";
+import Footer from "./components/layouts/footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             {/* Add more routes as needed */}
           </Routes>
         </main>
+        <Footer />
       </Suspense>
     </ErrorBoundary>
   );

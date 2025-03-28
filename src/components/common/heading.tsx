@@ -5,12 +5,8 @@ type HeadingProps = {
   className?: string;
 };
 
-const Heading: FC<HeadingProps> = ({ children, className = "" }) => {
-  return (
-    <h1 className={`font-medium text-5xl text-text ${className}`}>
-      {children}
-    </h1>
-  );
+const Heading: FC<HeadingProps> = ({ children, className = "text-text" }) => {
+  return <h1 className={`font-medium text-5xl  ${className}`}>{children}</h1>;
 };
 
 export default Heading;
