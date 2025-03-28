@@ -12,8 +12,6 @@ import allStates from "../../lib/data/all-states.json";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
-
-
 const UsaMap: React.FC = () => {
   return (
     <div style={{ width: "100%", maxWidth: "800px", margin: "0 auto" }}>
@@ -30,7 +28,7 @@ const UsaMap: React.FC = () => {
                   strokeWidth={0.5}
                   style={{
                     default: { outline: "none" },
-                    hover: { fill: "#D6D6DA", outline: "none" },
+                    hover: { fill: "#ca3500", outline: "none", color: "#ffff" },
                     pressed: { outline: "none" },
                   }}
                 />
