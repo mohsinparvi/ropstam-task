@@ -20,7 +20,7 @@ interface MapMarker {
 }
 
 // Import states data with proper typing
-import allStates from "../../lib/data/all-states.json";
+// import allStates from "../../lib/data/all-states.json";
 
 // Define the geography URL
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
