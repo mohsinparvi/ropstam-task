@@ -12,6 +12,8 @@ import allStates from "../../lib/data/all-states.json";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
+
+
 const UsaMap: React.FC = () => {
   return (
     <div style={{ width: "100%", maxWidth: "800px", margin: "0 auto" }}>
@@ -35,11 +37,10 @@ const UsaMap: React.FC = () => {
               ))}
               {geographies.map((geo) => {
                 const centroid = geoCentroid(geo);
-                const cur = allStates.find((s) => s.val === geo.id); // ✅ Matching FIPS code
-
+                const cur = allStates.find((s) => s.id === geo.id);
                 return (
                   <g key={geo.rsmKey + "-name"}>
-                    {cur?.id && centroid.length === 2 && (
+                    {cur && centroid[0] > -160 && centroid[0] < -67 && (
                       <Marker coordinates={centroid}>
                         <text
                           y="2"
@@ -47,7 +48,7 @@ const UsaMap: React.FC = () => {
                           textAnchor="middle"
                           fill="#333"
                         >
-                          {cur.id} {/* ✅ Display state abbreviation */}
+                          {cur.id}
                         </text>
                       </Marker>
                     )}
