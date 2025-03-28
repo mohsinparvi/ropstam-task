@@ -11,7 +11,7 @@ const LocationSection = () => {
           As Seen
         </p>
         <Heading className="text-center ">Currently Serve</Heading>
-        <p className="text-center w-3/4">
+        <p className="text-center w-full lg:w-3/4">
           We believe everyone should have access to treatment and care. That’s
           why we’re teaming up with providers all over the country. Click on a
           green state to see the insurance companies we currently accept and to
