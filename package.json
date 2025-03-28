@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
+    "d3-geo": "^3.1.1",
     "lucide-react": "^0.484.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
