@@ -9,6 +9,7 @@ import {
   ArrowLeft,
   ArrowRight,
   MapPin,
+  AlignJustify,
 } from "lucide-react";
 import PlayButton from "./play-button.svg";
 import CbsNews from "./cbs-news.svg";
@@ -32,4 +33,5 @@ export {
   Fox,
   Nbc,
   MapPin,
+  AlignJustify,
 };

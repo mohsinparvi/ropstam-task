@@ -1,6 +1,7 @@
 import Logo from "../common/logo";
 import NavLink from "../common/nav-link";
 import { Button } from "../ui/material-tailwind";
+import { AlignJustify } from "../../assets/icons";
 const NAV_ITEMS = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "#" },
@@ -29,13 +30,14 @@ const Header = () => {
             </nav>
           </div>
           <Button
-            className="bg-primary hover:bg-primary/80 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out"
+            className="bg-primary hidden lg:block hover:bg-primary/80 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out"
             placeholder={undefined}
             onPointerEnterCapture={null}
             onPointerLeaveCapture={null}
           >
             <span>Start Treatment</span>
           </Button>
+          <AlignJustify className="h-6 w-6 text-white cursor-pointer md:hidden" />
         </div>
       </div>
     </header>
