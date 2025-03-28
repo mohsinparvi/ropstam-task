@@ -18,7 +18,7 @@ const LocationSection = () => {
           learn more about online Suboxone doctors in your area.
         </p>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-4 my-8">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-4 my-8">
         <div className="space-y-2">
           <img
             src={UsaImage}
@@ -31,10 +31,9 @@ const LocationSection = () => {
             <p>Ottawa St. and Homer Waston Blvd.</p>
           </div>
         </div>
-               <div className="w-full md:w-1/2">
+        <div className="w-full lg:w-1/2 lg:h-full ">
           <UsaMap />
         </div>
-
       </div>
     </div>
   );
