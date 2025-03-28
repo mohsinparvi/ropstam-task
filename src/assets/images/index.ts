@@ -4,6 +4,7 @@ import SectionOneGif from "./section-one.gif";
 import ClientOne from "./client-one.png";
 import SectionfourGif from "./section-four.gif";
 import Suboxone from "./suboxone.gif";
+import UsaImage from "./usa.png";
 export {
   HeroImage,
   GetApp,
@@ -11,4 +12,5 @@ export {
   ClientOne,
   SectionfourGif,
   Suboxone,
+  UsaImage,
 };

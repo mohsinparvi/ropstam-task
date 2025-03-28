@@ -5,6 +5,7 @@ import SectionOne from "../components/pages/home/section-one";
 import SectionTwo from "../components/pages/home/section-two";
 import TestimonialsSection from "../components/pages/home/testimonials-section";
 import SuboxoneSection from "../components/pages/home/suboxone-section";
+import LocationSection from "../components/pages/home/location-section";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <TestimonialsSection />
       <SuboxoneSection />
       <FeatureSection />
+      <LocationSection />
       <GetAppSection />
     </>
   );

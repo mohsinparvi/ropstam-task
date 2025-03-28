@@ -6,8 +6,9 @@ import {
   Twitter,
   Facebook,
   Youtube,
-  ArrowLeft ,
+  ArrowLeft,
   ArrowRight,
+  MapPin,
 } from "lucide-react";
 import PlayButton from "./play-button.svg";
 import CbsNews from "./cbs-news.svg";
@@ -30,5 +31,5 @@ export {
   Abc,
   Fox,
   Nbc,
-
+  MapPin,
 };
