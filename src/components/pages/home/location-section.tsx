@@ -9,7 +9,7 @@ const LocationSection = () => {
         <p className="text-primary text-center text-base font-thin uppercase">
           As Seen
         </p>
-        <Heading className="text-center text-primary">Currently Serve</Heading>
+        <Heading className="text-center ">Currently Serve</Heading>
         <p className="text-center w-3/4">
           We believe everyone should have access to treatment and care. That’s
           why we’re teaming up with providers all over the country. Click on a
@@ -30,7 +30,7 @@ const LocationSection = () => {
             <p>Ottawa St. and Homer Waston Blvd.</p>
           </div>
         </div>
-        <div></div>
+        <div>{/* <UsaMap /> */}</div>
       </div>
     </div>
   );
