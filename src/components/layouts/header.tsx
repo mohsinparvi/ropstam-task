@@ -37,7 +37,7 @@ const Header = () => {
           >
             <span>Start Treatment</span>
           </Button>
-          <AlignJustify className="h-6 w-6 text-white cursor-pointer md:hidden" />
+          <AlignJustify className="h-6 w-6 text-white cursor-pointer blocl lg:hidden" />
         </div>
       </div>
     </header>

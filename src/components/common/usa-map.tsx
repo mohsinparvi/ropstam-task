@@ -35,10 +35,11 @@ const UsaMap: React.FC = () => {
               ))}
               {geographies.map((geo) => {
                 const centroid = geoCentroid(geo);
-                const cur = allStates.find((s) => s.id === geo.id);
+                const cur = allStates.find((s) => s.val === geo.id); // ✅ Matching FIPS code
+
                 return (
                   <g key={geo.rsmKey + "-name"}>
-                    {cur && centroid[0] > -160 && centroid[0] < -67 && (
+                    {cur?.id && centroid.length === 2 && (
                       <Marker coordinates={centroid}>
                         <text
                           y="2"
@@ -46,7 +47,7 @@ const UsaMap: React.FC = () => {
                           textAnchor="middle"
                           fill="#333"
                         >
-                          {cur.id}
+                          {cur.id} {/* ✅ Display state abbreviation */}
                         </text>
                       </Marker>
                     )}
