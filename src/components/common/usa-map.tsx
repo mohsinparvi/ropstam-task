@@ -51,7 +51,7 @@ const UsaMap: React.FC = () => {
   return (
     <ComposableMap projection="geoAlbersUsa">
       <Geographies geography={geoUrl}>
-        {(props: GeographiesChildrenArgument) => {
+        {(props) => {
           const { geographies, outline, borders } =
             props as GeographiesRenderProps;
           return (
