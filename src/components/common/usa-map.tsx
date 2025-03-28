@@ -28,7 +28,7 @@ const UsaMap: React.FC = () => {
                   strokeWidth={0.5}
                   style={{
                     default: { outline: "none" },
-                    hover: { fill: "#ca3500", outline: "none", color: "#ffff" },
+                    hover: { fill: "#ca3500", outline: "none", color: "#fff" },
                     pressed: { outline: "none" },
                   }}
                 />
@@ -42,9 +42,10 @@ const UsaMap: React.FC = () => {
                       <Marker coordinates={centroid}>
                         <text
                           y="2"
-                          fontSize={10}
+                          fontSize={8}
                           textAnchor="middle"
                           fill="#333"
+                          style={{ fontWeight: "bold" }}
                         >
                           {cur.id}
                         </text>
