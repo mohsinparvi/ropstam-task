@@ -41,7 +41,7 @@ const UsaMap: React.FC = () => {
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  fill="#E9E3DA"
+                  fill="#49C7AB"
                   stroke="#FFF"
                   strokeWidth={0.5}
                   style={{
