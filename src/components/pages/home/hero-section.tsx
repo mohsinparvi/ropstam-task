@@ -1,27 +1,23 @@
 import { Button } from "../../ui/material-tailwind";
 // import { HeroImage } from "../../../assets/images";
 import { ArrowUpRight } from "../../../assets/icons";
+import Heading from "../../common/heading";
 
 const HeroSection = () => {
   return (
     <section className="hero-imge bg-cover bg-center relative h-screen flex items-center justify-center overflow-hidden">
-      {/* <img
-        src={HeroImage}
-        alt="hero"
-        // className="absolute inset-0 h-fill w-full object-cover rounded-md"
-        className="absolute inset-0 h-screen w-full object-cover rounded-md"
-      /> */}
       <div className="container mx-auto px-4 lg:px-8 xl:px-0">
-        <div className="relative  z-10  top-0  xl:top-20 lg:max-w-2xl px-4">
-          <div className="flex justify-center items-center xl:justify-start xl:items-start xl:h-[62dvh] mt-52 flex-col text-white">
+        <div className="relative  z-2  top-0  xl:top-24  max-w-xl lg:max-w-2xl px-4">
+          <div className=" items-center xl:justify-start xl:items-start xl:h-[62dvh] mt-52 flex-col text-white">
             <p className="mb-4  text-sm sm:text-base font-extralight xl:text-start ">
               No Lines. Less hassle, Lower Costs.
             </p>
-            <h1 className="mb-8 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center xl:text-start inline-block font-normal leading-normal">
+            <Heading className="text-white text-4xl lg:text-6xl leading-[3rem] lg:leading-[4rem] my-4 font-normal ">
               Easy Online Suboxone Treatment for Opioid Addiction
-            </h1>
+            </Heading>
+
             <Button
-              className="flex items-center gap-2 bg-primary  hover:bg-primary/80 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out px-3 py-3 max-w-[230px]"
+              className="flex items-center gap-2 bg-primary normal-case hover:bg-primary/80 text-base text-white font-medium rounded-lg shadow-md transition duration-300 ease-in-out px-2 py-2 "
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}

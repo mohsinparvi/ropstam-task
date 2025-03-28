@@ -10,8 +10,10 @@ import LocationSection from "../components/pages/home/location-section";
 const Home = () => {
   return (
     <main className=" space-y-7 lg:space-y-14 overflow-hidden">
-      <HeroSection />
-      <SectionOne />
+      <div>
+        <HeroSection />
+        <SectionOne />
+      </div>
       <SectionTwo />
       <TestimonialsSection />
       <SuboxoneSection />

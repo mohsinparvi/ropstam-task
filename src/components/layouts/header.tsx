@@ -1,7 +1,8 @@
 import Logo from "../common/logo";
 import NavLink from "../common/nav-link";
 import { Button } from "../ui/material-tailwind";
-import { AlignJustify } from "../../assets/icons";
+
+import { MobileNav } from "../common/mobile-nav";
 const NAV_ITEMS = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "#" },
@@ -11,7 +12,7 @@ const NAV_ITEMS = [
 ];
 const Header = () => {
   return (
-    <header className="mx-auto container  py-4 rounded-2xl bg-black/20 backdrop-blur-sm absolute left-0 right-0 top-8 z-10">
+    <header className="mx-auto container  px-4 py-2 sm:px-6 lg:px-8   lg:py-4 rounded-2xl bg-black/20 backdrop-blur-sm absolute left-0 right-0 top-8 z-10">
       <div className=" px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="md:flex md:items-center md:gap-12">
@@ -30,14 +31,16 @@ const Header = () => {
             </nav>
           </div>
           <Button
-            className="bg-primary hidden lg:block hover:bg-primary/80 text-white font-semibold rounded-lg shadow-md transition duration-300 ease-in-out"
+            className="bg-primary hidden lg:block hover:bg-primary/80  text-white font-medium rounded-lg shadow-md transition duration-300 ease-in-out"
             placeholder={undefined}
             onPointerEnterCapture={null}
             onPointerLeaveCapture={null}
           >
             <span>Start Treatment</span>
           </Button>
-          <AlignJustify className="h-6 w-6 text-white cursor-pointer blocl lg:hidden" />
+          <div className="block lg:hidden">
+            <MobileNav />
+          </div>
         </div>
       </div>
     </header>
