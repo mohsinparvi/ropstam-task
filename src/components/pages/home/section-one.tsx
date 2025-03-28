@@ -19,7 +19,7 @@ const CARD_ITEMS = [
 const SectionOne = () => {
   return (
     <section className="section-one py-12">
-      <div className="container  mx-auto px-4 mt-10 ms:mt-56 lg:mt-28 xl:mt-0">
+      <div className="container  mx-auto px-4 mt-40 ms:mt-56 lg:mt-28 xl:mt-0">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
           <div className="space-y-4 w-full lg:w-1/3">
             <Heading>Breaking Barriers to Recovery</Heading>
