@@ -1,4 +1,4 @@
-import { Button } from "@material-tailwind/react";
+import { Button } from "../../ui/material-tailwind";
 import { HeroImage } from "../../../assets/images";
 import { ArrowUpRight } from "../../../assets/icons";
 

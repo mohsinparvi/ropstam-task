@@ -4,6 +4,7 @@ import HeroSection from "../components/pages/home/hero-section";
 import SectionOne from "../components/pages/home/section-one";
 import SectionTwo from "../components/pages/home/section-two";
 import TestimonialsSection from "../components/pages/home/testimonials-section";
+import SuboxoneSection from "../components/pages/home/suboxone-section";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <SectionOne />
       <SectionTwo />
       <TestimonialsSection />
+      <SuboxoneSection />
       <FeatureSection />
       <GetAppSection />
     </>
