@@ -7,12 +7,21 @@ type NavLinkProps = {
   className?: string;
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;
 
-const NavLink: React.FC<NavLinkProps> = ({ href, children, className, ...rest }) => {
+const NavLink: React.FC<NavLinkProps> = ({
+  href,
+  children,
+  className,
+  ...rest
+}) => {
   const location = useLocation();
   const isActive = href === location.pathname;
 
-  const activeClassName = isActive ? "text-blue-600" : "text-white hover:text-blue-600";
-  const combinedClassName = className ? `${activeClassName} ${className}` : activeClassName;
+  const activeClassName = isActive
+    ? "text-primary"
+    : "text-white hover:text-primary";
+  const combinedClassName = className
+    ? `${activeClassName} ${className}`
+    : activeClassName;
 
   return (
     <Link to={href} className={combinedClassName} {...rest}>
