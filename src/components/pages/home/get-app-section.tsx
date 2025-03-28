@@ -5,7 +5,7 @@ const GetAppSection = () => {
     <section className="relative get-app h-2/3">
       <div className="container mx-auto px-4 lg:px-8 xl:px-0">
         <div className="flex justify-center items-center">
-          <div className="flex justify-center  items-center flex-col  sm:my-12 md:my-16 lg:my-24 max-w-5xl space-y-4">
+          <div className="flex justify-center  items-center flex-col  my-16 lg:my-24 max-w-5xl space-y-4">
             <p className="text-black text-base font-thin uppercase">
               Get Your Meds Online Today
             </p>
