@@ -9,7 +9,7 @@ const GetAppSection = () => {
             <p className="text-black text-base font-thin uppercase">
               Get Your Meds Online Today
             </p>
-            <Heading className="text-black">
+            <Heading className="text-black text-center">
               Secure Access to Your Medications
             </Heading>
             <p className="mb-4 text-base text-center text-black md:text-xl t font-thin">

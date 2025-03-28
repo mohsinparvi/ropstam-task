@@ -18,7 +18,7 @@ const LocationSection = () => {
           learn more about online Suboxone doctors in your area.
         </p>
       </div>
-      <div className="flex items-center gap-4 my-8">
+      <div className="flex items-center justify-center lg:justify-start gap-4 my-8">
         <div className="space-y-2">
           <img
             src={UsaImage}
