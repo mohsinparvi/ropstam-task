@@ -84,7 +84,7 @@ const TestimonialsSection = () => {
           </p>
           <div className="flex items-center justify-between">
             <Heading>Testimonials</Heading>
-            <div className="flex items-center gap-8">
+            <div className="flex items-center gap-4 lg:gap-8">
               <button
                 onClick={previous}
                 className="border-text-700 border rounded-full p-1"
