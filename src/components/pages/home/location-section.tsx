@@ -1,6 +1,7 @@
 import { UsaImage } from "../../../assets/images";
 import { MapPin } from "../../../assets/icons";
 import Heading from "../../common/heading";
+import UsaMap from "../../common/usa-map";
 
 const LocationSection = () => {
   return (
@@ -30,7 +31,9 @@ const LocationSection = () => {
             <p>Ottawa St. and Homer Waston Blvd.</p>
           </div>
         </div>
-        <div>{/* <UsaMap /> */}</div>
+        <div>
+          <UsaMap />
+        </div>
       </div>
     </div>
   );
