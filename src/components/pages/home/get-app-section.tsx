@@ -1,10 +1,10 @@
 import { Button } from "@material-tailwind/react";
 const GetAppSection = () => {
   return (
-    <section className="relative get-app h-2/4">
+    <section className="relative get-app h-2/3">
       <div className="container mx-auto px-4 lg:px-8 xl:px-0">
         <div className="flex justify-center items-center">
-          <div className="flex justify-center  items-center flex-col mt-40 mb-10 max-w-5xl space-y-4">
+          <div className="flex justify-center  items-center flex-col mt-40 mb-14 max-w-5xl space-y-4">
             <p className="mb-4 text-base text-center text-black md:text-xl t font-thin">
               We have partnered with RX-Outreach to provide mail order
               medications at a fraction of the price you may find in your local
