@@ -23,7 +23,7 @@ module.exports = withMT({
         },
         text: {
           DEFAULT: "#475569",
-          dark: "#E5E7EB",
+          700: "#1E293B",
         },
       },
     },
