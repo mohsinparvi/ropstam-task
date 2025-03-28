@@ -11,12 +11,10 @@ function App() {
     <ErrorBoundary>
       <Suspense fallback={<LoadingSpinner />}>
         <Header />
-        <main className="">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            {/* Add more routes as needed */}
-          </Routes>
-        </main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          {/* Add more routes as needed */}
+        </Routes>
         <Footer />
       </Suspense>
     </ErrorBoundary>

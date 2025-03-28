@@ -16,7 +16,7 @@ const TestimonialCard: FC<Props> = ({ description, name, image }) => {
         <StarIcon filled={true} />
         <StarIcon filled={true} />
       </div>
-      <p className="text-base font-thin text-text flex-grow line-clamp-4">
+      <p className="text-base font-extralight text-text flex-grow line-clamp-4">
         {description}
       </p>
       <div className="flex items-center gap-2 mt-auto">
