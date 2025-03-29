@@ -17,7 +17,6 @@ const FeatureSection = () => {
       <p className="text-primary text-base font-thin uppercase">As Seen</p>
       <div className="flex flex-col lg:flex-row  justify-between lg:items-center space-y-4 lg:space-y-0">
         <Heading>Featured On</Heading>
-        {/* <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"> */}
         <div className="w-full lg:w-1/2 ">
           <Slider {...settings}>
             {ICONS.map((Icon, index) => (

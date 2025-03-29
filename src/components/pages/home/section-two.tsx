@@ -5,7 +5,7 @@ const SectionTwo = () => {
   return (
     <section>
       <div className="mx-auto container px-4 py-8 sm:px-6 lg:px-8 ">
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-start  md:gap-8">
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:items-start  md:gap-8">
           <div className="max-w-lg md:max-w-none space-y-4">
             <p className="text-primary text-base font-thin uppercase">
               Welcome To Recovery Delivered
@@ -25,7 +25,11 @@ const SectionTwo = () => {
 
           <div className="relative flex items-center justify-center w-full h-full max-w-lg md:max-w-none">
             <img src={HeroImage} className="rounded-2xl" alt="" />
-            <img src={PlayButton} className=" cursor-pointer absolute" alt="" />
+            <img
+              src={PlayButton}
+              className=" cursor-pointer absolute w-1/4 lg:w-auto"
+              alt=""
+            />
           </div>
         </div>
       </div>
