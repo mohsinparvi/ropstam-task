@@ -22,13 +22,13 @@ export function MobileNav() {
         />
       </div>
       {isOpen && (
-        <nav className="absolute top-full left-0 w-full z-10 bg-black/80 backdrop-blur-lg  text-white p-4 shadow-lg">
+        <nav className="absolute top-full left-0 w-full z-10 bg-black/90 backdrop-blur-3xl  text-white p-4 shadow-lg">
           <ul className="flex flex-col gap-4 text-lg">
             {NAV_ITEMS.map((item) => (
               <li key={item.label}>
                 <NavLink
                   href={item.href}
-                  className="block text-white py-2 px-4 hover:bg-gray-700"
+                  className="block py-2 px-4 "
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}
