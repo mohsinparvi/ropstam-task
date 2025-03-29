@@ -17,7 +17,7 @@ const Header = () => {
             <Logo />
           </div>
 
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <nav aria-label="Global">
               <ul className="flex items-center gap-6 text-sm">
                 {NAV_ITEMS.map((item) => (
