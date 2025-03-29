@@ -12,7 +12,7 @@ const GetAppSection = () => {
             <Heading className="text-center text-3xl md:text-4xl font-medium text-black">
               Secure Access to Your Medications
             </Heading>
-            <p className="mb-4 text-base text-center text-black md:text-xl t font-thin">
+            <p className="mb-4 text-sm sm:text-base font-extralight text-black text-center max-w-2xl">
               We have partnered with RX-Outreach to provide mail order
               medications at a fraction of the price you may find in your local
               pharmacy. Meet your chronic illness provider online today and get
