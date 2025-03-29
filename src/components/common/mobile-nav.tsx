@@ -10,7 +10,7 @@ const NAV_ITEMS = [
   { label: "Properties", href: "#" },
 ];
 
-export function MobileNav() {
+const MobileNav = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
@@ -40,4 +40,6 @@ export function MobileNav() {
       )}
     </div>
   );
-}
+};
+
+export default MobileNav;

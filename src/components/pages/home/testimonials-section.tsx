@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { ClientOne } from "../../../assets/images";
-import Heading from "../../common/heading";
-import TestimonialCard from "../../common/testimonial-card";
+import { Heading, TestimonialCard } from "../../common";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -53,7 +52,6 @@ const TestimonialsSection = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 2,
-    // autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
       {
@@ -76,38 +74,36 @@ const TestimonialsSection = () => {
     ],
   };
   return (
-    <section>
-      <div className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
-        <div className="space-y-4">
-          <p className="text-primary text-base font-thin uppercase">
-            Our Client's
-          </p>
-          <div className="flex items-center justify-between">
-            <Heading>Testimonials</Heading>
-            <div className="flex items-center gap-4 lg:gap-8">
-              <button
-                onClick={previous}
-                className="border-text-700 border rounded-full p-1"
-              >
-                <ArrowLeft />
-              </button>
-              <button onClick={next} className="bg-primary rounded-full p-1">
-                <ArrowRight className="text-white" />
-              </button>
-            </div>
+    <section className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
+      <div className="space-y-4">
+        <p className="text-primary text-base font-thin uppercase">
+          Our Client's
+        </p>
+        <div className="flex items-center justify-between">
+          <Heading>Testimonials</Heading>
+          <div className="flex items-center gap-4 lg:gap-8">
+            <button
+              onClick={previous}
+              className="border-text-700 border rounded-full p-1"
+            >
+              <ArrowLeft />
+            </button>
+            <button onClick={next} className="bg-primary rounded-full p-1">
+              <ArrowRight className="text-white" />
+            </button>
           </div>
         </div>
-
-        <Slider
-          {...settings}
-          ref={sliderRef}
-          className="testimonial-slider py-8 group/container"
-        >
-          {TESTIMONIALS.map((testimonial) => (
-            <TestimonialCard key={testimonial.id} {...testimonial} />
-          ))}
-        </Slider>
       </div>
+
+      <Slider
+        {...settings}
+        ref={sliderRef}
+        className="testimonial-slider py-8 group/container"
+      >
+        {TESTIMONIALS.map((testimonial) => (
+          <TestimonialCard key={testimonial.id} {...testimonial} />
+        ))}
+      </Slider>
     </section>
   );
 };

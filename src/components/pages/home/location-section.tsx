@@ -1,7 +1,6 @@
 import { UsaImage } from "../../../assets/images";
 import { MapPin } from "../../../assets/icons";
-import Heading from "../../common/heading";
-import UsaMap from "../../common/usa-map";
+import { Heading, UsaMap } from "../../common";
 
 const LocationSection = () => {
   return (

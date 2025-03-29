@@ -1,6 +1,6 @@
 import { PlayButton } from "../../../assets/icons";
 import { HeroImage } from "../../../assets/images";
-import Heading from "../../common/heading";
+import { Heading } from "../../common";
 const SectionTwo = () => {
   return (
     <section>

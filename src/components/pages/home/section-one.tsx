@@ -1,4 +1,5 @@
-import Heading from "../../common/heading";
+import { Heading } from "../../common";
+
 const CARD_ITEMS = [
   {
     id: 1,

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../common/logo";
+import { Logo } from "../common";
 import { PhoneCall, Twitter, Facebook, Youtube } from "../../assets/icons";
 const QUICK_LINKS = [
   { label: "Home", href: "/" },

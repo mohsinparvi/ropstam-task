@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 type NavLinkProps = {
@@ -30,4 +30,4 @@ const NavLink: React.FC<NavLinkProps> = ({
   );
 };
 
-export default NavLink;
+export default memo(NavLink);

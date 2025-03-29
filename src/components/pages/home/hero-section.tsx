@@ -1,7 +1,6 @@
 import { Button } from "../../ui/material-tailwind";
-// import { HeroImage } from "../../../assets/images";
 import { ArrowUpRight } from "../../../assets/icons";
-import Heading from "../../common/heading";
+import { Heading } from "../../common";
 
 const HeroSection = () => {
   return (

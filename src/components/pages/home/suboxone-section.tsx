@@ -1,7 +1,6 @@
 import { Button } from "../../ui/material-tailwind";
-import Heading from "../../common/heading";
+import { Heading, SuboxoneCard } from "../../common";
 import { ArrowUpRight } from "../../../assets/icons";
-import SuboxoneCard from "../../common/suboxone-card";
 import { SectionfourGif } from "../../../assets/images";
 const SUBOXONE_STEP = [
   {

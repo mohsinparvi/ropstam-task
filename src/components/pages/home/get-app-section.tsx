@@ -1,8 +1,8 @@
-import { Button } from "@material-tailwind/react";
-import Heading from "../../common/heading";
+import { Button } from "../../ui/material-tailwind";
+import { Heading } from "../../common";
 const GetAppSection = () => {
   return (
-    <section className="relative get-app h-2/3">
+    <section className="relative get-app ">
       <div className="container mx-auto px-4 lg:px-8 xl:px-0">
         <div className="flex justify-center items-center">
           <div className="flex justify-center  items-center flex-col  my-16 lg:my-24 max-w-5xl space-y-4">

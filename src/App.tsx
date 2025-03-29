@@ -1,9 +1,8 @@
-import { Suspense } from "react";
+import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
-import ErrorBoundary from "./components/common/error-boundary";
-import LoadingSpinner from "./components/common/loading-spinner";
+import { ErrorBoundary, LoadingSpinner } from "./components/common";
 import Header from "./components/layouts/header";
-import Home from "./page/home";
+const Home = lazy(() => import("./page/home"));
 import Footer from "./components/layouts/footer";
 
 function App() {

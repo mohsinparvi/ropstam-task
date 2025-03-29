@@ -1,7 +1,8 @@
-import Heading from "../../common/heading";
+import { Heading } from "../../common";
 import { CbsNews, Abc, Fox, Nbc } from "../../../assets/icons";
-const ICONS = [CbsNews, Abc, Fox, Nbc];
 import Slider from "react-slick";
+
+const ICONS = [CbsNews, Abc, Fox, Nbc];
 const FeatureSection = () => {
   const settings = {
     infinite: true,

@@ -1,8 +1,6 @@
-import Logo from "../common/logo";
-import NavLink from "../common/nav-link";
 import { Button } from "../ui/material-tailwind";
+import { MobileNav, NavLink, Logo } from "../common";
 
-import { MobileNav } from "../common/mobile-nav";
 const NAV_ITEMS = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "#" },

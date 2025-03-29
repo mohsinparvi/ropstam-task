@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import { geoCentroid } from "d3-geo";
 import {
   ComposableMap,
@@ -68,4 +68,4 @@ const UsaMap: React.FC = () => {
   );
 };
 
-export default UsaMap;
+export default memo(UsaMap);
